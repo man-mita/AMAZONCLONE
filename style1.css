@@ -1,0 +1,243 @@
+*{
+    margin:0;
+    font-family: arial;
+    border:border-box;
+    
+}
+.navbar{
+    height:60px;
+    background-color: #0f1111;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height:50px;
+    width:100px;
+}
+.logo{
+    background-image:url("logo_image.png");
+    height:50px;
+    background-size: cover;
+    width:100%;
+}
+.border{
+    border:2px solid transparent;
+}
+.border:hover{
+    border:0.75px solid whitesmoke;
+}
+/**box2**/
+.add-first{
+    color:#cccccccc;
+    font-size:0.83rem;
+    margin-left: 15px;
+}
+.add-second{
+    color:white;
+    font-size:1rem;
+    margin-left: 3px;
+}
+.add-icon{
+    display:flex;
+    align-items: center;
+   
+}
+/**box3**/
+.nav-search{
+    display:flex;
+    justify-content:space-between;
+    background-color: rgb(246, 168, 12);
+    width:620px;
+    height:40px;
+    border-radius:5px;
+    border:none;
+    color: black;
+    
+    
+}
+.search-select{
+    background-color: rgb(240, 233, 237);
+    width:50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border:none;
+}
+.search-input{
+    width:100%;
+    font-size:1rem;
+    border:none;
+}
+.search-icon{
+    width:45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   font-size: 1.2rem;
+   background-color: rgb(218, 177, 10);
+   border-top-right-radius: 4px;
+   border-bottom-right-radius:4px ;
+   color: rgb(6, 6, 6);
+}
+.nav-search:hover{
+    border:2px solid orange;
+
+}
+/**box4**/
+span{
+    font-size:0.65rem;
+}
+.nav-second{
+    font-size:0.85rem;
+    font-family: cursive;
+    font-weight: 700px;
+}
+/**box5**/
+.nav-cart i{
+    display: flex;
+    font-size: 30px;
+}
+.nav-cart{
+  
+    font-size:0.75rem;
+    font-weight: 700;
+}
+/** panel**/
+.panel{
+    margin: 0;
+    width:100%;
+    height:40px;
+     background-color: rgb(18, 47, 47);
+     color: beige;
+     display: flex;
+     align-items: center;
+     justify-content: space-evenly;
+
+}
+.panel-ops p{
+    display:inline;
+    justify-content: space-evenly;
+    margin-left: 20px;
+}
+.panel-ops{
+    width:70%;
+    font-size: 0.75rem;;
+}
+.panel-deals{
+    font-size:0.9rem;
+    font-weight:700;
+}
+/** hero section**/
+.hero-section{
+    background-image: url("hero_image.jpg");
+    height:350px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.hero-msg{
+    background-color: beige;
+    justify-content: center;
+    color: black;
+    display: flex;
+    height: 30px;
+    align-items: center;
+    font-size: 0.85rem;
+    width: 80%;
+    margin-bottom:25px;
+}
+.hero-msg a{
+    color: darkslateblue;
+}
+/**shopping**/
+.box{
+    height:400px;
+    
+    background-color: azure;
+    width:23%;
+    padding: 10px 0px 15px;
+   border-radius: 4px;
+    margin-top: 10px;
+   
+}
+.shop-section{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(175, 223, 236);
+}
+.box-img{
+    height:300px;
+    background-size: contain;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+}
+.box-content{
+    margin-left:1.5rem;
+    margin-right: 1.5rem;
+}
+.box-content p{
+    color: rgb(9, 84, 215);
+}
+/**footer pannel**/
+footer{
+    margin-top:15px;
+
+}
+.foot-panell1{
+    background-color: rgb(17, 34, 34);
+    color: honeydew;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+
+}
+.foot-panel2{
+    background-color: rgb(44, 45, 45);
+    height:400px;
+    display: flex;
+    font-size: 0.75rem;
+    color: aliceblue;
+    justify-content: space-evenly;
+}
+.foot-panel2 a{
+    display: block;
+    margin-top: 10px;
+    
+}
+ul{
+    margin-top: 10px;
+}
+.foot-panel3{
+    background-color: rgb(44, 45, 45); 
+    border: 2px solid white;
+    height:70px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    background-image:url("logo_image.png");
+    height:50px;
+    width:100px;
+    background-size: cover;
+   
+}
+.panel4{
+    height:500px;
+    width:100%;
+    border:2px solid white;
+    background-color: dimgrey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
